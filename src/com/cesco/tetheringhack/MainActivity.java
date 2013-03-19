@@ -13,7 +13,7 @@ import com.cesco.tetheringhack.util.*;
 public class MainActivity extends Activity {
 	Button button1;
 	TextView editInt;
-	TextView port;
+	TextView editSub;
 	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		
 		button1 = (Button) findViewById(R.id.button1);
 		final EditText Interface_text = (EditText) this.findViewById(R.id.editInt);
-		final EditText Port_text = (EditText) this.findViewById(R.id.editPort);
+		final EditText Port_text = (EditText) this.findViewById(R.id.editSub);
 		
 		OnClickListener oclButton1 = new OnClickListener() {
 			@SuppressWarnings("deprecation")

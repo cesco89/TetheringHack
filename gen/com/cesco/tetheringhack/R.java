@@ -16,7 +16,7 @@ public final class R {
     public static final class id {
         public static final int button1=0x7f07000d;
         public static final int editInt=0x7f07000e;
-        public static final int editPort=0x7f070011;
+        public static final int editSub=0x7f070010;
         public static final int menu_settings=0x7f070012;
         public static final int textView1=0x7f070000;
         public static final int textView10=0x7f070009;
@@ -24,7 +24,7 @@ public final class R {
         public static final int textView12=0x7f07000b;
         public static final int textView13=0x7f07000c;
         public static final int textView14=0x7f07000f;
-        public static final int textView15=0x7f070010;
+        public static final int textView15=0x7f070011;
         public static final int textView2=0x7f070001;
         public static final int textView3=0x7f070002;
         public static final int textView4=0x7f070003;
