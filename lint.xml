@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="UseValueOf">
+        <ignore path="src/com/cesco/tetheringhack/util/CommandResult.java" />
+    </issue>
+</lint>
