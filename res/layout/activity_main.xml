@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="18dp"
-        android:text="with this hack your carrier cannot check if you are using tethering"
+        android:text="@string/intro"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:text="How To:"
+        android:text="@string/title"
         android:textAppearance="?android:attr/textAppearanceLarge"
         tools:ignore="HardcodedText" />
 
@@ -30,7 +30,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView2"
         android:layout_marginLeft="28dp"
-        android:text="1 - Enable tethering" />
+        android:text="@string/first" />
 
     <TextView
         android:id="@+id/textView4"
@@ -39,7 +39,7 @@
         android:layout_alignLeft="@+id/textView3"
         android:layout_below="@+id/textView3"
         android:layout_marginTop="10dp"
-        android:text="2 - Open a Terminal app and run:" />
+        android:text="@string/second" />
 
     <TextView
         android:id="@+id/textView5"
@@ -48,7 +48,7 @@
         android:layout_alignLeft="@+id/textView4"
         android:layout_below="@+id/textView4"
         android:layout_marginLeft="23dp"
-        android:text="su     " />
+        android:text="@string/secondsu" />
 
     <TextView
         android:id="@+id/textView6"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView5"
         android:layout_below="@+id/textView5"
-        android:text="netcfg" />
+        android:text="@string/secondnetcfg" />
 
     <TextView
         android:id="@+id/textView7"
@@ -65,7 +65,7 @@
         android:layout_alignLeft="@+id/textView4"
         android:layout_below="@+id/textView6"
         android:layout_marginTop="13dp"
-        android:text="3 - Look which interface is UP" />
+        android:text="@string/third" />
 
     <TextView
         android:id="@+id/textView8"
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView6"
         android:layout_below="@+id/textView7"
-        android:text="EX:  rmnet0" />
+        android:text="@string/exampleone" />
 
     <TextView
         android:id="@+id/textView9"
@@ -82,7 +82,7 @@
         android:layout_alignLeft="@+id/textView7"
         android:layout_below="@+id/textView8"
         android:layout_marginTop="12dp"
-        android:text="4 - look at the subnet mask" />
+        android:text="@string/fourth" />
 
     <TextView
         android:id="@+id/textView10"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView8"
         android:layout_below="@+id/textView9"
-        android:text="EX: 176.245.xx.yyy/16" />
+        android:text="@string/exampletwo" />
 
     <TextView
         android:id="@+id/textView11"
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView10"
         android:layout_below="@+id/textView10"
-        android:text="( &quot;16&quot; is the number we are looking for )" />
+        android:text="@string/exampletwo1" />
 
     <TextView
         android:id="@+id/textView12"
@@ -107,7 +107,7 @@
         android:layout_alignLeft="@+id/textView9"
         android:layout_below="@+id/textView11"
         android:layout_marginTop="11dp"
-        android:text="5 - Enter Interface and Subnet in the fields provided below"
+        android:text="@string/fifth"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -117,7 +117,7 @@
         android:layout_alignLeft="@+id/textView12"
         android:layout_below="@+id/textView12"
         android:layout_marginTop="14dp"
-        android:text="6 - Hit Enable!" />
+        android:text="@string/sixth" />
 
     <Button
         android:id="@+id/button1"
@@ -125,7 +125,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Enable" />
+        android:text="@string/btn_enable" />
 
     <EditText
         android:id="@+id/editInt"
@@ -143,7 +143,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/editInt"
         android:layout_alignLeft="@+id/textView11"
-        android:text="Interface"
+        android:text="@string/Int_field"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
@@ -165,7 +165,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/editSub"
         android:layout_toLeftOf="@+id/button1"
-        android:text="Subnet Mask"
+        android:text="@string/Sub_field"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
