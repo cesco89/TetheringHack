@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="18dp"
-        android:text="with this hack your carrier cannot check if you are running tethering"
+        android:text="with this hack your carrier cannot check if you are using tethering"
         tools:ignore="HardcodedText" />
 
     <TextView
